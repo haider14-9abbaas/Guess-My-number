@@ -1,0 +1,154 @@
+body {
+  background: #18191b !important;
+  color: #fff;
+  min-height: 100vh;
+  font-family: 'Press Start 2P', monospace;
+}
+
+.main-container {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guess-game {
+  background: #222;
+  border-radius: 8px;
+  box-shadow: 0 2px 18px 0 #111a;
+  padding: 2.2rem 1.2rem 1.4rem 1.2rem;
+  width: 100%;
+  max-width: 600px;
+}
+
+h1 {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 1.65rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.divider {
+  border-top: 2px solid #fff;
+  opacity: 0.4;
+  margin: 1rem 0 1.4rem 0;
+}
+
+.number-display {
+  width: 70px;
+  height: 70px;
+  background: #222;
+  color: #fff;
+  font-size: 2.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #fff;
+  border-radius: 8px;
+  font-family: inherit;
+  margin: 0 auto 1rem auto;
+  transition: background .3s;
+}
+
+.guess-input {
+  width: 140px;
+  background: #18191b;
+  color: #fff;
+  border: 2px solid #fff;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  text-align: center;
+  padding: 6px;
+  margin-bottom: 8px;
+  outline: none;
+  font-family: inherit;
+}
+
+.guess-input:focus {
+  border-color: #ffe76a;
+}
+
+.btn-check, #again {
+  font-family: inherit;
+  border-radius: 4px;
+  background: #fff;
+  color: #222;
+  font-size: 1rem;
+  border: none;
+  box-shadow: 0 2px 4px #0002;
+  padding: 7px 16px;
+  letter-spacing: .5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.btn-check:hover, #again:hover {
+  background: #ffe76a;
+  color: #18191b;
+}
+
+.game-info {
+  margin-top: 1.4rem;
+  font-size: 1.08rem;
+  font-family: inherit;
+}
+
+.game-message {
+  min-height: 24px;
+  color: #ffe76a;
+  font-size: 1rem;
+  margin-top: .3rem;
+  margin-bottom: .8rem;
+  letter-spacing: 0.5px;
+}
+
+.footer {
+  background: none;
+  color: #fff;
+  padding: 1.2rem 0 1.1rem 0;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.9rem;
+  letter-spacing: .2px;
+  margin-top: auto;
+}
+
+.footer a {
+  display: inline-block;
+  margin: 0 0.28rem;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.footer a:hover svg {
+  filter: brightness(1.4);
+}
+.footer svg {
+  width: 23px;
+  height: 23px;
+  vertical-align: middle;
+  margin-bottom: 2px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 700px) {
+  .guess-game {
+    max-width: 95vw;
+    padding: 1.2rem 0.4rem 1.2rem 0.4rem;
+  }
+  .number-display {
+    width: 60px;
+    height: 60px;
+    font-size: 1.6rem;
+  }
+  h1 {
+    font-size: 1.1rem;
+  }
+  .guess-input {
+    width: 110px;
+    font-size: 0.95rem;
+  }
+  .game-info {
+    font-size: .97rem;
+  }
+}
