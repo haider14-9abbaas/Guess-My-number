@@ -14,7 +14,7 @@ Built with **HTML5, CSS3, Bootstrap 5, JavaScript** and the “Press Start 2P”
 
 ## 📸 Demo
 
-[Live Demo](https://your-live-demo-link.com)
+[Live Demo](https://haider14-9abbaas.github.io/Guess-My-number/)
 
 ## 👨‍💻 Developed By
 
@@ -24,8 +24,8 @@ Syed Haider Abbas
 
 ## 🔗 Links
 
-- [Live Demo](https://your-live-demo-link.com)
-- [GitHub Repo](https://github.com/haider14-9abbaas/guess-my-number)
+- [Live Demo](https://haider14-9abbaas.github.io/Guess-My-number/)
+- [GitHub Repo](https://github.com/haider14-9abbaas/Guess-My-number)
 
 ---
 
